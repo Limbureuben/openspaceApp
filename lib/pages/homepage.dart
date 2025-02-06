@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
           ),
           Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   'Welcome to Our Mobile GIS App',
