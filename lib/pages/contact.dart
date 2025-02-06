@@ -7,7 +7,7 @@ class ContactPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-       backgroundColor: Colors.transparent
+       backgroundColor: Colors.transparent,
         elevation: 0,
         title: const Text(
           'Contact Us',
