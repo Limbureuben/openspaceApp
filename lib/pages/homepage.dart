@@ -11,7 +11,8 @@ class HomePage extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.network(
-            'https://i.sstatic.net/sMhLz.jpg', // Placeholder image URL
+            'https://images.unsplash.com/photo-1549125764-91425ca48850?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            // 'https://i.sstatic.net/sMhLz.jpg', // Placeholder image URL
             fit: BoxFit.cover,
           ),
           Container(
