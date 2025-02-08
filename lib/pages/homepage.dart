@@ -12,7 +12,6 @@ class HomePage extends StatelessWidget {
         children: [
           Image.network(
             'https://images.unsplash.com/photo-1549125764-91425ca48850?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            // 'https://i.sstatic.net/sMhLz.jpg', // Placeholder image URL
             fit: BoxFit.cover,
           ),
           Container(
@@ -54,6 +53,9 @@ class HomePage extends StatelessWidget {
                     backgroundColor: const Color(0xFF16C47F),
                     padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                     textStyle: const TextStyle(fontSize: 18),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
                   ),
                 ),
                 const SizedBox(height: 20),
@@ -67,6 +69,9 @@ class HomePage extends StatelessWidget {
                     backgroundColor: const Color(0xFF155E95),
                     padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                     textStyle: const TextStyle(fontSize: 18),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
                   ),
                 ),
               ],
