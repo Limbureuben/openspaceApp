@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:openspace_mobile/common/dashboard.dart';
 import 'package:openspace_mobile/common/login.dart';
 
 class HomePage extends StatelessWidget {
@@ -43,7 +44,7 @@ class HomePage extends StatelessWidget {
                     showDialog(
                       context: context,
                       builder: (BuildContext context) {
-                        return const LoginForm();
+                        return const DashboardPage();
                       },
                     );
                   },
